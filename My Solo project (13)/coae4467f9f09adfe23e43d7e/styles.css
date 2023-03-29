@@ -1,0 +1,166 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero{
+    background-image: url(images/hyde.park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    margin-bottom: -19px;
+    
+    border-bottom: 0px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+#hero-h1{
+    background-color: #569BF8;
+    opacity: 0.8;
+    border-radius: 100px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    margin-top: -1px;
+    text-shadow: 0px 1px 5px black;
+    font-family: 'Happy Monkey', cursive;
+    
+}
+#hero-h2{
+    border-radius: 100px;
+    background: #76211F;
+    opacity: 0.8;
+    font-size: 18.6px;
+    text-shadow: 0 1px 5px black;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+    font-family: 'Happy Monkey', cursive;
+    
+    
+}
+#Activity-heading{
+font-family: 'Happy Monkey', cursive;
+background: #656840;
+color: #E4D665;
+font-weight: 50px;
+font-size: 20px;
+margin-top: 5px;
+margin-bottom: 0px;
+text-shadow: 0 0 1px black;
+
+}
+.Activity{
+    background: #569BF8;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    border-bottom-left-radius: 25px;   
+    border-bottom-right-radius: 25px;
+}
+#img1A{
+    border: palevioletred solid 5px;
+    border-radius: 50px;
+  
+    
+}
+
+/*#img1A:hover{
+    background-image: url(https://media.giphy.com/media/3Joihag21GB1TKA4tc/giphy.gif);
+}*/
+
+#img2A{
+border: palevioletred solid 5px;
+border-radius: 50px; 
+
+
+}
+
+#img3A{
+border: palevioletred solid 5px;
+border-radius: 50px; 
+
+}
+.guide-section{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.Building-header, .Building-para{
+   color: #F6EBE7;
+    text-shadow: 0 0 5px black;
+    width: 250px;
+    margin: auto; 
+}
+
+.National-history-header, .National-history-para{
+    color: #F6EBE7;
+    text-shadow: 0 0 5px black;
+    width: 250px;
+    margin: auto;
+}
+
+.Royal-header, .Royal-para{
+color: #E4D665;
+text-shadow: 0 0 5px black;
+width: 250px;
+margin: auto; 
+}
+
+.guide-section{
+    background-color: #7C9CD2;
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border-bottom: 5px solid #E4D665;
+    border-radius: 15px;
+    
+
+}
+/* The properties within the div container such as image and text*/
+.move-items-guide{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #F6EBE7;
+    text-shadow: 0 0 5px black;
+    
+}
+
+
+#guide-img{
+  height: 180px;  
+  width: 150px;
+}
